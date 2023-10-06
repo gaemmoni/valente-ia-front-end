@@ -1,0 +1,101 @@
+@font-face {
+    font-family: Valente;
+    src: url('../../../resources/fonts/b2b-condensed.ttf') format('ttf');
+}
+
+.login-page {
+    width: 100%;
+    height: 100%;
+    background-color: #efebf4;
+}
+
+.login-page-container {
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-page-user-login-form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 56px;
+    font-family: Inter;
+}
+
+.login-page-user-form-label {
+    color: #1C2140;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.login-page-icon {
+    width: 12em;
+}
+
+.login-page-user-form-input-text {
+    background-color: #DAE0EE;
+    border: none;
+    padding: 6px;
+    margin-top: 10px;
+}
+
+.login-page-form-row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#password::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+    background: url("../../../resources/images/visibility_off.svg") center / contain no-repeat;
+}
+
+.login-page-button {
+    width: 188px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #AE99C9;
+    border: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.login-page-container-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-page-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+}
+
+.login-page-footer-label {
+    color: #4863AC;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

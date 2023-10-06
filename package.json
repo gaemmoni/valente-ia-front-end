@@ -1,0 +1,36 @@
+{
+  "name": "valente-ai-front-end",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/plugin-transform-runtime": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "@svgr/webpack": "^6.0.0",
+    "autoprefixer": "10.4.5",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.2.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.1",
+    "dotenv": "^8.2.0",
+    "file-loader": "^6.2.0",
+    "html-loader": "^3.0.1",
+    "html-webpack-plugin": "^5.5.3",
+    "postcss": "^8.4.4",
+    "postcss-loader": "^6.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.6.0"
+  },
+  "dependencies": {
+    "clsx": "^2.0.0",
+    "react-router-dom": "^6.16.0",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
